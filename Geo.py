@@ -58,7 +58,7 @@ def cuadro():
 	print("")
 	print("El Perimetro Del Cuadrado Es :",+pec ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
 				
 def Rectangulo():
 	print("")
@@ -73,7 +73,7 @@ def Rectangulo():
 	print("")
 	print("El Perimetro Del Rectangulo Es :",+perr ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
 
 def circulo():
 	print("")
@@ -86,7 +86,7 @@ def circulo():
 	print("")
 	print("El Perimetro De El Circulo Es : ",+perc ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")			
+	os.system("python Geo.py")			
 
 
 def Rombo():
@@ -102,7 +102,7 @@ def Rombo():
 	print("")
 	print("El Perimetro De El Rombo Es : ",+pder ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
 
 
 def pentagono():
@@ -118,7 +118,7 @@ def pentagono():
 	print("")
 	print("El Perimetro Del Pentagono Es :",+penp ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
 
 def Hexagono():
 	print("")
@@ -133,8 +133,8 @@ def Hexagono():
 	print("")
 	print("El Area De El Hexagono Es :",+apot ,"cm")
 	print("")
-        time.sleep(5)
-        os.system("python Geo.py")
+	time.sleep(5)
+	os.system("python Geo.py")
 	
 def Trapecio():
 	print("")
@@ -155,7 +155,7 @@ def Trapecio():
 	print("")
 	print("El Perimetro De El Trapecio Es : ",pert ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
 	
 def Paralelogramo():
 	print("")
@@ -170,7 +170,8 @@ def Paralelogramo():
 	print("")
 	print("El Perimetro Del Paralelogramo Es : ",+pedp ,"cm")
 	time.sleep(5)
-        os.system("python Geo.py")
+	os.system("python Geo.py")
+
 ban()
 
 menu=int(input("Escribe Un Numero   Del 1 al 9 >"))
