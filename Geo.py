@@ -1,4 +1,4 @@
-import time
+
 import os
 
 def ban():
@@ -35,7 +35,7 @@ def triangulo():
    print("El Area Del Triangulo Es : ",+res1,"cm")
    print("")
    print("El Perimetro De El Triangulo Es : ",+pe ,"cm")
-   time.sleep(5)
+   
    os.system("python Geo.py")
       		
 
@@ -57,7 +57,7 @@ def cuadro():
 	print("El Area Del Cuadro Es : ",+l12 ,"cm")
 	print("")
 	print("El Perimetro Del Cuadrado Es :",+pec ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 				
 def Rectangulo():
@@ -72,7 +72,7 @@ def Rectangulo():
 	print("El Area De El Rectangulo Es :",+baserr ,"cm")
 	print("")
 	print("El Perimetro Del Rectangulo Es :",+perr ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 
 def circulo():
@@ -85,7 +85,7 @@ def circulo():
 	print("El Area Del Circulo Es : ",+cirr ,"cm")
 	print("")
 	print("El Perimetro De El Circulo Es : ",+perc ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")			
 
 
@@ -101,7 +101,7 @@ def Rombo():
 	print("El Area De El Rombo Es : ",+dade ,"cm")
 	print("")
 	print("El Perimetro De El Rombo Es : ",+pder ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 
 
@@ -117,7 +117,7 @@ def pentagono():
 	print("El Area De El Pentagono Es : ",+resp ,"cm")
 	print("")
 	print("El Perimetro Del Pentagono Es :",+penp ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 
 def Hexagono():
@@ -133,7 +133,7 @@ def Hexagono():
 	print("")
 	print("El Area De El Hexagono Es :",+apot ,"cm")
 	print("")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 	
 def Trapecio():
@@ -154,7 +154,7 @@ def Trapecio():
 	print("El Area De El Trapecio Es : ",+tra ,"cm")
 	print("")
 	print("El Perimetro De El Trapecio Es : ",pert ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 	
 def Paralelogramo():
@@ -169,7 +169,7 @@ def Paralelogramo():
 	print("El Area Del Paralelogramo Es : ",+par ,"cm")
 	print("")
 	print("El Perimetro Del Paralelogramo Es : ",+pedp ,"cm")
-	time.sleep(5)
+	
 	os.system("python Geo.py")
 
 ban()
