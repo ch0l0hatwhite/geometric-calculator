@@ -157,7 +157,7 @@ def Paralelogramo():
 	
 ban()
 
-menu=int(input("    Elija una opcion > "))
+menu=int(input("    Elija Un Numero > "))
 
 if menu == 1:
 	triangulo()
