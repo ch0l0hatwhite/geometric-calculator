@@ -1,6 +1,3 @@
-import time
-
-	
 def ban():
   print("\033[36m")
   print("""
@@ -35,8 +32,7 @@ def triangulo():
    print("El Area Del Triangulo Es : ",+res1,"cm")
    print("")
    print("El Perimetro De El Triangulo Es : ",+pe ,"cm")
-   time.sleep(4)
-   ban()
+   
       		
 
 	
